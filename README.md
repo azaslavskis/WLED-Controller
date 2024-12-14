@@ -10,4 +10,6 @@ Simple project that takes care of LED strips and connect them using esp32 to hom
 2) Pin 9 is needed to be pulled on to boot esp32-c3 chip
 3) DS18b20 pin needed to be pulled to 3.3V (fixed on rev 1.6)
 4) more space for C1,C3,C9
+Assembled unit view:
 
+![image](https://github.com/user-attachments/assets/7e77cd1e-8eaa-4123-9331-6aaf47583ac2)
