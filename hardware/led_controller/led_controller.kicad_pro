@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "drill_out_of_range|135950000|67070000|cf84abf9-4433-40bd-b5c1-e4609f2e6460|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|135950000|68170000|d85d143c-abcb-4fca-bb84-827fa909587f|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|136500000|66520000|36cbab9e-ad0d-4b7c-8711-8198438fb370|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|136500000|67620000|b0caecbe-76be-4bb4-813b-2eca6bdec3af|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|136500000|68720000|75dd1691-fc5f-48f7-9a49-66b373629d57|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|137050000|67070000|8052e211-1730-416e-a7c8-25294b83a119|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|137050000|68170000|1a124a12-9c79-41ac-b1b1-db6b0ac65f19|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|137600000|66520000|36a419c0-ebbb-4f7a-8b20-cbbc02e83f6f|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|137600000|67620000|efa77ae5-0610-4791-a2f9-82da89989cd6|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|137600000|68720000|9df13f5e-856c-42e0-93da-96c8b3d20899|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|138150000|67070000|7a3a617c-bb1e-4561-9611-bdc696c57c6f|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|138150000|68170000|7121dad4-564d-4991-b76e-4c4a1010ef62|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -472,7 +459,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "xmas_both.kicad_pro",
+    "filename": "led_controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -510,7 +497,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "xmas_both.step",
+      "step": "led_controller.step",
       "svg": "",
       "vrml": ""
     },
