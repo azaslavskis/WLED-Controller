@@ -1,0 +1,3 @@
+[submodule "software/WLED-Patched-Led-Controller-DA-Fork"]
+	path = software/WLED-Patched-Led-Controller-DA-Fork
+	url = https://github.com/Aircoookie/WLED.git
