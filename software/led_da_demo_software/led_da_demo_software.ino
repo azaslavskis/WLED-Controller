@@ -15,7 +15,7 @@
 #define SCREEN_WIDTH 128  // OLED display width, in pixels
 #define SCREEN_HEIGHT 64  // OLED display height, in pixels
 #define OLED_RESET -1     // Reset pin # (or -1 if sharing Arduino reset pin)
-#define SCREEN_ADDRESS 0x3D  // Address for 128x64 OLED
+#define SCREEN_ADDRESS 0x3C  // Address for 128x64 OLED
 
 // Global Objects
 DS18B20 ds(ONE_WIRE_PIN);                        // Initialize DS18B20 sensor on the defined pin
@@ -37,7 +37,7 @@ void setup() {
   if (!INA.begin()) {
     Serial.println("[ERROR] INA219 initialization failed");
   } else {
-    INA.setMaxCurrentShunt(5, 0.002); // Configure shunt resistor
+    INA.setMaxCurrentShunt(5, 0.02); // Configure shunt resistor
     Serial.println("[DEBUG] INA219 configured");
   }
 
@@ -48,7 +48,7 @@ void setup() {
   Serial.println(numDevices);
 
   // Initialize OLED Display
-  if (!display.begin(SSD1306_I2C_ADDRESS, SCREEN_ADDRESS)) {
+  if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
     Serial.println("[ERROR] SSD1306 initialization failed");
     for (;;); // Halt execution if OLED initialization fails
   }
@@ -68,7 +68,7 @@ void loop() {
   Serial.print("Voltage: ");
   Serial.print(INA.getBusVoltage());
   Serial.print(" V, Current: ");
-  Serial.print(INA.getCurrent());
+  Serial.print(INA.getCurrent_mA());
   Serial.println(" mA");
 
   // Log Number of OneWire Sensors
