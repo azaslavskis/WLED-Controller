@@ -1146,7 +1146,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C7"
-			(at 1.285112 3.9275 360)
+			(at 1.285112 3.9275 0)
 			(layer "F.SilkS")
 			(uuid "5984bda4-c60b-4d7e-a638-13e88d810c92")
 			(effects
@@ -1157,7 +1157,7 @@
 			)
 		)
 		(property "Value" "220uf 35V"
-			(at 1.25 3.75 360)
+			(at 1.25 3.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27da2ceb-95f3-45df-8829-d86ca78f3133")
@@ -2466,7 +2466,7 @@
 			(uuid "6215b197-d2e2-4c3f-a649-3d545425c218")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "d50fbf4b-a4eb-4a9f-96d1-751aabcd1a90")
 			(effects
