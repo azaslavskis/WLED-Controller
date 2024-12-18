@@ -18,5 +18,5 @@ Assembled unit view:
 
 Run patched firmware build: 
 ```bash
-curl https://raw.githubusercontent.com/azaslavskis/WLED-Controller/refs/heads/main/software/WLED-Git_patch/patch.sh | bash
+wget https://raw.githubusercontent.com/azaslavskis/WLED-Controller/refs/heads/main/software/WLED-Git_patch/patch.sh && chmod +x patch.sh && ./patch.sh
 ```
