@@ -13,3 +13,10 @@ Simple project that takes care of LED strips and connect them using esp32 to hom
 Assembled unit view:
 
 ![image](https://github.com/user-attachments/assets/7e77cd1e-8eaa-4123-9331-6aaf47583ac2)
+
+
+
+Run patched firmware build: 
+```bash
+curl https://raw.githubusercontent.com/azaslavskis/WLED-Controller/refs/heads/main/software/WLED-Git_patch/patch.sh | bash
+```
