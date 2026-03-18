@@ -1,4 +1,4 @@
-# WLED Controller ⚡🌈
+# WLED Controller ⚡
 
 A compact ESP32-C3 based controller board for running addressable LED strips with **WLED** and integrating them into **Home Assistant**.
 
