@@ -56,3 +56,5 @@ wget https://raw.githubusercontent.com/azaslavskis/WLED-Controller/refs/heads/ma
 ## Project goal
 
 Create a reliable, DIY-friendly LED controller that is easy to deploy in smart-home setups and flexible enough for custom lighting projects.
+
+## Rework is comming soon
